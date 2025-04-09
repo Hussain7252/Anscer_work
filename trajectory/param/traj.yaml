@@ -1,0 +1,9 @@
+trajectory_saver_node:
+  ros__parameters:
+    topic: "/pub_trajectory_markers"
+
+trajectory_reader_node:
+  ros__parameters:
+    file_path: "my_path.json"
+    format: "json"
+    topic: "/read_trajectory_markers"
